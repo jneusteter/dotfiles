@@ -5,7 +5,13 @@
 .cache
 
 #config
-.config
+.config/Atom
+.config/chromium
+.config/dconf
+.config/gtk-3.0
+.config/menus
+.config/procps
+.config/pulse
 
 #gnome
 .gnome
