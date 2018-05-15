@@ -1,3 +1,5 @@
+Downloads/
+
 # atom
 .atom
 
@@ -8,19 +10,31 @@
 .config/Atom
 .config/chromium
 .config/dconf
+.config/gtk-2.0
 .config/gtk-3.0
 .config/menus
 .config/procps
 .config/pulse
+.config/Thunar
+.config/vlc
+.config/xfce4
+.config/mimeapps.list
+.config/pavucontrol.ini
 
 #gnome
 .gnome
+
+#icons
+.icons/
 
 #local
 .local
 
 #pki
 .pki
+
+#ssh
+.ssh/
 
 #bash
 .bash_logout
@@ -34,3 +48,4 @@
 .esd_auth
 .zcompdump
 .histfile
+.gtkrc-2.0
