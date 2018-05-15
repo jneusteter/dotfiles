@@ -1,41 +1,40 @@
-URxvt.font: xft:monaco:bold:size=10
-URxvt.letterSpace: -4
+*foreground:      #00cc00
+*foreground_bold: #a8a19f
+*cursor:          #a8a19f
+*background:      #1b1918
+!!*background:    rgba(0, 0, 0, .7)
 
-URxvt.color12: rgb:5c/5c/ff
+!! black
+*color0: #1b1918
+*color8: #766e6b
+!! red
+*color1: #f22c40
+*color9: #f22c40
+!! green
+*color2: #5ab738
+*color10: #5ab738
+!! yellow
+*color3: #d5911a
+*color11: #d5911a
+!! blue
+*color4: #407ee7
+*color12: #407ee7
+!! magenta
+*color5: #6666ea
+*color13: #6666ea
+!! cyan
+*color6: #00ad9c
+*color14: #00ad9c
+!! white
+*color7: #a8a19f
+*color15: #f1efee
 
-! special
-*.foreground:   #ffffff
-*.background:   #161616
-*.cursorColor:  #ffffff
+URxvt.intensityStyles:	false
+URxvt.background:       #000000
+URxvt.depth:		        32
+URxvt.font: 		        xft:monospace:size=11
+URxvt.scrollBar:	      false
+URxvt.cursorColor:	    white
 
-! black
-*.color0:       #222222
-*.color8:       #666666
-
-! red
-*.color1:       #e84f4f
-*.color9:       #d23d3d
-
-! green
-*.color2:       #b7ce42
-*.color10:      #bde077
-
-! yellow
-*.color3:       #fea63c
-*.color11:      #ffe863
-
-! blue
-*.color4:       #66aabb
-*.color12:      #aaccbb
-
-! magenta
-*.color5:       #b7416e
-*.color13:      #e16a98
-
-! cyan
-*.color6:       #6d878d
-*.color14:      #42717b
-
-! white
-*.color7:       #dddddd
-*.color15:      #cccccc
+!! Extensions
+Urxvt.perl-ext-common: default
