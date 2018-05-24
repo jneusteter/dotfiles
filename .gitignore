@@ -1,10 +1,6 @@
 Downloads/
-
-# atom
-.atom
-
-#cache
-.cache
+workspace/
+wallpapers/
 
 #config
 .config/Atom
@@ -13,28 +9,15 @@ Downloads/
 .config/gtk-2.0
 .config/gtk-3.0
 .config/menus
+.config/obs-studio
 .config/procps
 .config/pulse
+.config/syncthing/
 .config/Thunar
 .config/vlc
 .config/xfce4
 .config/mimeapps.list
 .config/pavucontrol.ini
-
-#gnome
-.gnome
-
-#icons
-.icons/
-
-#local
-.local
-
-#pki
-.pki
-
-#ssh
-.ssh/
 
 #bash
 .bash_logout
@@ -45,7 +28,20 @@ Downloads/
 .gitconfig
 
 #misc
+.atom/
+.audacity-data/
+.bundle/
+.cache/
+.gem/
+.gnome/
+.icons/
+.local/
+.pki/
+.rvm/
+.ssh/
+.thumbnails/
 .esd_auth
+.fehbg
 .zcompdump
 .histfile
 .gtkrc-2.0
