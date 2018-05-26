@@ -20,7 +20,6 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-fugitive'
 
 " Themes
-Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on
@@ -29,5 +28,3 @@ filetype plugin indent on
 set number
 
 syntax enable
-set background=dark
-colorscheme solarized
