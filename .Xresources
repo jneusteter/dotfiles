@@ -31,10 +31,12 @@
 
 URxvt.intensityStyles:	false
 URxvt.background:       #000000
-URxvt.depth:		        32
-URxvt.font: 		        xft:Inconsolata:bold:size=15
-URxvt.scrollBar:	      false
-URxvt.cursorColor:	    white
+URxvt.depth:	        32
+URxvt.font: 	        xft:Inconsolata:bold:size=15
+URxvt.scrollBar:        false
+URxvt.cursorColor:      white
+URxvt.transparent:      true
+URxvt.shading:          20
 
 !! Extensions
 Urxvt.perl-ext-common: default

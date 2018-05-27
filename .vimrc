@@ -16,6 +16,9 @@ Plugin 'scrooloose/nerdtree'
 " Ruby Support
 Plugin 'vim-ruby/vim-ruby'
 
+" Markdown Support
+Plugin 'JamshedVesuna/vim-markdown-preview'
+
 " Git Support
 Plugin 'tpope/vim-fugitive'
 
@@ -28,3 +31,5 @@ filetype plugin indent on
 set number
 
 syntax enable
+
+" Markdown

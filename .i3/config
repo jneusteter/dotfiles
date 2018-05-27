@@ -203,3 +203,4 @@ workspace $ws10 output DVI-I-2
 # Startup programs
 exec_always feh --randomize --bg-fill ~/wallpapers/*
 exec syncthing --no-browser
+exec compton -f
