@@ -15,6 +15,7 @@ Plugin 'scrooloose/nerdtree'
 
 " Ruby Support
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'thoughtbot/vim-rspec'
 
 " Markdown Support
 Plugin 'JamshedVesuna/vim-markdown-preview'
@@ -23,13 +24,25 @@ Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'tpope/vim-fugitive'
 
 " Themes
+Plugin 'joshdick/onedark.vim'
 
 call vundle#end()
 filetype plugin indent on
 """" END of Vindle Configuration
 
 set number
-
+set modifiable
 syntax enable
 
 " Markdown
+"
+" Theme settings
+"
+" Rspec Shortcuts
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
+" Ruby Settings
+autocmd FileType ruby compiler ruby
